@@ -49,6 +49,33 @@ Document Processing: PDF text extraction and document chunking
 🎓 Educational PDF assistant
 📊 Extract information from reports
 ⚡ Quickly find information in large PDF files
-Project Goal
+# Project Goal
 
 The main goal of this project is to demonstrate how Generative AI, RAG, vector databases, embeddings, and document processing can be combined to build a practical AI assistant capable of answering questions from private document data.
+
+pdf-chatbot/
+│
+├── backend/
+│   ├── main.py
+│   ├── rag_pipeline.py
+│   ├── requirements.txt
+│   └── ...
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+├── sample_pdfs/
+│   ├── sample_document.pdf
+│   └── README.md
+│
+├── screenshots/
+│   ├── upload-page.png
+│   └── chat-page.png
+│
+├── .env.example
+├── .gitignore
+├── README.md
+└── LICENSE
